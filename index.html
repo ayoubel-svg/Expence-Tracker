@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expence Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./image/LogoMakr-43y2un.png"
+      type="image/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="title">
+      <h1>Expence Tracker</h1>
+    </header>
+    <p>Add New Items</p>
+    <form>
+      <div class="Name">
+        <label for="Name">Name: </label>
+        <input type="text" placeholder="type same texte" />
+      </div>
+      <div class="Date">
+        <label for="date">Date: </label>
+        <input type="date" />
+      </div>
+      <div class="Amount">
+        <label for="Amount">Amount: </label>
+        <input type="text" />
+      </div>
+    </form>
+    <button type="button" class="btn">Add items</button>
+    <table border="1" class="table-btn">
+      <tr>
+        <td>Name</td>
+        <td>Date</td>
+        <td>Amount</td>
+        <td></td>
+      </tr>
+    </table>
+    <script
+      src="https://kit.fontawesome.com/78a583e815.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
